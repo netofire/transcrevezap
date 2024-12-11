@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   transcricaoaudio:
-    image: impacteai/transcrevezap:latest
+    image: netofire/transcrevezap:latest
     build: .
     networks:
       - suarededocker #troque pela sua rede do docker
